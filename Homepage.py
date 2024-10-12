@@ -58,7 +58,7 @@ st.markdown("## Pic")
 # two columns layout
 
     # show image
-    st.image('images/生活照.jpg', caption='https://lbezone.hkust.edu.hk/rse/thread-bound-books')
+st.image('images/生活照.jpg', caption='https://lbezone.hkust.edu.hk/rse/thread-bound-books')
 
 
 
