@@ -16,7 +16,7 @@ import plotly.express as px
 # page info
 ###############################################################
 st.set_page_config(
-    page_title="Demo | HKUST Digital Humanities Initiative",
+    page_title="DU Heng| Personal Website",
     page_icon="👋",
 )
 
