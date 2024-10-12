@@ -25,60 +25,43 @@ st.set_page_config(
 ###############################################################
 with st.sidebar:
     st.markdown("""
-                [HKUST Digital Humanities Initiative](https://digitalhumanities.hkust.edu.hk/)
+                (https://duhengweb.streamlit.app/)
                 """)
     st.markdown("""
-                This website serves as a demo to showcase the capabilities and functionalities of Streamlit in creating web applications. If you are interested in learning the step-by-step process of how this website was created, please refers to [our article](https://digitalhumanities.hkust.edu.hk/tutorials/learn-python-from-zero-for-absolute-beginner-3-create-website/) for detailed instructions and explanations.
+                This website serves as a personal through introduction about me
                 """)
     
 ###############################################################
 # page content
 ###############################################################
 st.caption("Personal Web")
-st.title("Personal Web")
+st.title("Welcome DU Heng's Personal Web")
 
 st.markdown("""
-            Welcome to this website! 
-
-            Are you interested in creating a website like this demo site? Look no further! Let's read our article below. We will walk you through the steps of creating this demo site, cover everything from setting up the development environment to deploying your website online. Get ready to bring your visualizations created in [our previous lesson](https://digitalhumanities.hkust.edu.hk/tutorials/learn-python-from-zero-for-absolute-beginner-2-data-visualization/) to life on the web!
-
-            👉 https://digitalhumanities.hkust.edu.hk/tutorials/learn-python-from-zero-for-absolute-beginner-3-create-website/
-            
-            We would love to hear from you if you have followed along with the article and successfully created a website. We appreciate your efforts and would be thrilled to share and highlight your work on our website.
+            Thank you for taking the time to visit my personal website! It is been quite a journey, and I am glad you are here. While I may not have grand offerings or thrilling tales, I want to share a glimpse into my life and experiences. Join me as I explore the ordinary moments that shape who I am. Let’s connect over the little things that make life interesting!
             """)
 
-st.info('[Share with us!](https://forms.office.com/r/FPkLhaE2sr)', icon="💬")
+st.info('[Connect with me!](https://www.linkedin.com/in/heng-du-016bba215/)', icon="👋")
 
 st.markdown("---")
 
 #################### read Excel file data ############################
 
-filepath = 'data/data_dh-tutorial_rse-ChiBksBefore1949-ThreadBound.xlsx'
-data = pd.read_excel(filepath, sheet_name='data')
+
 
 ######################################################################
 
 # If you're looking for a detailed explanation about this part of code, please read our article : https://digitalhumanities.hkust.edu.hk/tutorials/learn-python-from-zero-for-absolute-beginner-1-data-cleaning/
 
-st.markdown("## Data for this demo")
+st.markdown("## Pic")
 
 # two columns layout
-col1, col2 = st.columns(2)
-with col1:
-    # calculate the sum
-    sumvalue = data['number of items'].sum()
-    
-    # show the sum
-    st.metric(label="No. of items", value=sumvalue)
-    st.write(f'There are a total of {sumvalue} items in this collection online as of 4 Aug 2023.')
 
     # show image
-    st.image('images/rse-chibk1949threadbound.png', caption='https://lbezone.hkust.edu.hk/rse/thread-bound-books')
+    st.image('images/生活照.jpg', caption='https://lbezone.hkust.edu.hk/rse/thread-bound-books')
 
 
-with col2:
-   # show dataframe
-   st.dataframe(data)
+
 
 st.markdown('---')
    
