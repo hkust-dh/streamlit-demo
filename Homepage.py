@@ -58,7 +58,7 @@ st.markdown("## Do not Worry! It is just me ")
 # two columns layout
 
     # show image
-st.image('images/生活照.jpg')
+st.image('images/微信图片_20241012103943.jpg')
 
 
 
