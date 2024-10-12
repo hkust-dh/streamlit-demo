@@ -34,11 +34,11 @@ with st.sidebar:
 ###############################################################
 # page content
 ###############################################################
-st.caption("Demo by HKUST Digital Humanities Initiative")
-st.title("Learn Python From Zero For Absolute Beginner (3): Create Website")
+st.caption("Personal Web")
+st.title("Personal Web")
 
 st.markdown("""
-            Welcome to this demo site! 👋 
+            Welcome to this website! 
 
             Are you interested in creating a website like this demo site? Look no further! Let's read our article below. We will walk you through the steps of creating this demo site, cover everything from setting up the development environment to deploying your website online. Get ready to bring your visualizations created in [our previous lesson](https://digitalhumanities.hkust.edu.hk/tutorials/learn-python-from-zero-for-absolute-beginner-2-data-visualization/) to life on the web!
 
