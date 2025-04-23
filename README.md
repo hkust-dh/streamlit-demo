@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/683918251.svg)](https://doi.org/10.5281/zenodo.15266817)
+
 # Learn Python From Zero For Absolute Beginner (3): Create Website
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hkust-dh-demo.streamlit.app/)
